@@ -8,7 +8,6 @@ if playing not in ["yes", "y"]:
     quit()
 
 print("Okay! Let's begin! :)")
-score = 0
 
 def ask_question(question, correct_answer, score):
     answer = input(question)
@@ -21,10 +20,6 @@ def ask_question(question, correct_answer, score):
         print()
 
     return score
-
-
-# Initialize the score
-score = 0
 
 # Define questions and answers
 questions_and_answers = [
@@ -52,15 +47,21 @@ questions_and_answers = [
     ("What is the Android class used for accessing system services? \n(a) SystemService\n(b) ServiceManager\n(c) Context\n(d) Application\n", "c")
 ]
 
-# Randomize the order of questions
+#Initialize score
+score = 0
+
+# Randomize the order of questions and select the first 10
 random.shuffle(questions_and_answers)
+selected_questions = questions_and_answers[:10]
 
 # Ask each question and update the score
-for question, correct_answer in questions_and_answers:
+for question, correct_answer in selected_questions:
     score = ask_question(question, correct_answer, score)
 
-total_questions = len(questions_and_answers)
+# Calculate the total number of questions
+total_questions = len(selected_questions)
 
-score_in_percentage = int(score / total_questions) * 100
+# Calculate the percentage score as an integer
+score_in_percentage = int((score / total_questions) * 100)
 
 print(f"Your final score is: {score} out of {total_questions}. That's {score_in_percentage}%!")
