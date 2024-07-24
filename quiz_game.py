@@ -1,3 +1,5 @@
+import random
+
 print("Welcome to my Programming Quiz!")
 
 playing = input("Do you want to play? ")
@@ -17,6 +19,7 @@ def ask_question(question, correct_answer, score):
         print("Incorrect!")
     return score
 
+
 # Initialize the score
 score = 0
 
@@ -27,6 +30,9 @@ questions_and_answers = [
     ("What is the file extension for Android application packages? ", ".apk"),
     ("Which of the following is used to store persistent data in an Android application? ", "sharedPreferences")
 ]
+
+# Randomize the order of questions
+random.shuffle(questions_and_answers)
 
 # Ask each question and update the score
 for question, correct_answer in questions_and_answers:
