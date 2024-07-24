@@ -2,39 +2,34 @@ print("Welcome to my Programming Quiz!")
 
 playing = input("Do you want to play? ")
 
-if playing.lower() != "yes":
+if playing not in ["yes", "y"]:
     quit()
 
 print("Okay! Let's begin! :)")
 score = 0
 
-answer = input("What is the primary programming language used for Android app development? ")
-if answer.lower() == "java":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
+def ask_question(question, correct_answer, score):
+    answer = input(question)
+    if answer.lower() == correct_answer.lower():
+        print('Correct!')
+        score += 1
+    else:
+        print("Incorrect!")
+    return score
 
-answer = input("Which component of an Android application is responsible for managing the app's user interface? ")
-if answer.lower() == "activity":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
+# Initialize the score
+score = 0
 
-answer = input("What is the file extension for Android application packages? ")
-if answer.lower() == ".apk":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
+# Define questions and answers
+questions_and_answers = [
+    ("What is the primary programming language used for Android app development? ", "java"),
+    ("Which component of an Android application is responsible for managing the app's user interface? ", "activity"),
+    ("What is the file extension for Android application packages? ", ".apk"),
+    ("Which of the following is used to store persistent data in an Android application? ", "sharedPreferences")
+]
 
-answer = input("Which of the following is used to store persistent data in an Android application? ")
-if answer.lower() == "sharedPreferences":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
+# Ask each question and update the score
+for question, correct_answer in questions_and_answers:
+    score = ask_question(question, correct_answer, score)
 
-print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+print(f"Your final score is: {score}")
