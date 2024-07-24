@@ -40,6 +40,6 @@ for question, correct_answer in questions_and_answers:
 
 total_questions = len(questions_and_answers)
 
-score_in_percentage = (score / total_questions) * 100
+score_in_percentage = int(score / total_questions) * 100
 
-print(f"Your final score is: {score} out of {total_questions}. That's {score_in_percentage:.2f}%!")
+print(f"Your final score is: {score} out of {total_questions}. That's {score_in_percentage}%!")
