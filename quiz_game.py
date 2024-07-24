@@ -32,4 +32,8 @@ questions_and_answers = [
 for question, correct_answer in questions_and_answers:
     score = ask_question(question, correct_answer, score)
 
-print(f"Your final score is: {score}")
+total_questions = len(questions_and_answers)
+
+score_in_percentage = (score / total_questions) * 100
+
+print(f"Your final score is: {score} out of {total_questions}. That's {score_in_percentage:.2f}%!")
