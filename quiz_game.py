@@ -1,26 +1,6 @@
 import random
 
-print("Welcome to my Programming Quiz!")
-
-playing = input("Do you want to play? ")
-
-if playing not in ["yes", "y"]:
-    quit()
-
-print("Okay! Let's begin! :)")
-
-def ask_question(question, correct_answer, score):
-    answer = input(question).strip().lower()
-    if answer == correct_answer:
-        print('Correct!')
-        score += 1
-    else:
-        print(f"Incorrect! The correct answer is ({correct_answer}).")
-    return score
-
-def play_quiz():
-    questions_and_answers = [
-    #Android Questio
+android_questions = [
     ("What is the primary programming language used for Android app development? \n(a) Java\n(b) Kotlin\n(c) Python\n(d) C++\n", "a"),
     ("Which component of an Android application is responsible for managing the app's user interface? \n(a) Service\n(b) BroadcastReceiver\n(c) Activity\n(d) ContentProvider\n", "c"),
     ("What is the file extension for Android application packages? \n(a) .exe\n(b) .app\n(c) .apk\n(d) .zip\n", "c"),
@@ -60,8 +40,9 @@ def play_quiz():
     ("What is the purpose of `LiveData` in Android Architecture Components? \n(a) Store UI-related data\n(b) Handle background tasks\n(c) Observe data changes\n(d) Manage network operations\n", "c"),
     ("Which layout allows you to position child views in relation to each other or the parent container? \n(a) LinearLayout\n(b) RelativeLayout\n(c) ConstraintLayout\n(d) FrameLayout\n", "b"),
     ("Which class do you use to create a custom View in Android? \n(a) ViewGroup\n(b) View\n(c) ViewParent\n(d) ViewTreeObserver\n", "b"),
-    
-    #Python Questions
+]
+
+python_questions = [
     ("What is the output of the following code: print(2 ** 3)? \n(a) 6\n(b) 8\n(c) 9\n(d) 11\n", "b"),
     ("Which of the following data types is not immutable in Python? \n(a) tuple\n(b) list\n(c) string\n(d) frozenset\n", "b"),
     ("What is the correct way to create a dictionary in Python? \n(a) dict = {}\n(b) dict = []\n(c) dict = ()\n(d) dict = ||\n", "a"),
@@ -102,8 +83,9 @@ def play_quiz():
     ("What is the output of `print('5' + '7')` in Python? \n(a) 12\n(b) 57\n(c) Error\n(d) 5 7\n", "b"),
     ("What will be the output of `print(10 % 3)`? \n(a) 1\n(b) 3\n(c) 0.3\n(d) 0.1\n", "a"),
     ("What is the result of `print(4 and 5)`? \n(a) True\n(b) False\n(c) 5\n(d) 4\n", "c"),
+]
 
-    # Data Structures and Algorithms Question
+dsa_questions = [
     ("Which data structure uses LIFO (Last In First Out) ordering? \n(a) Queue\n(b) Stack\n(c) Linked List\n(d) Binary Tree\n", "b"),
     ("What is the time complexity of searching for an element in a balanced binary search tree? \n(a) O(n)\n(b) O(log n)\n(c) O(n^2)\n(d) O(1)\n", "b"),
     ("Which data structure is best suited for implementing a priority queue? \n(a) Stack\n(b) Queue\n(c) Heap\n(d) Linked List\n", "c"),
@@ -168,34 +150,77 @@ def play_quiz():
     ("Which of the following algorithms is used to find the shortest path in an unweighted graph? \n(a) Dijkstra's Algorithm\n(b) Prim's Algorithm\n(c) Bellman-Ford Algorithm\n(d) Breadth First Search\n", "d"),
     ("What is the time complexity of searching for an element in a balanced AVL tree? \n(a) O(1)\n(b) O(log n)\n(c) O(n)\n(d) O(n log n)\n", "b")
 ]
-    
-    while True:
-        # Initialize the score
-        score = 0
 
-        # Randomize the order of questions and select the first 10
-        random.shuffle(questions_and_answers)
-        selected_questions = questions_and_answers[:10]
+print("Welcome to my Programming Quiz!")
 
-        # Ask each question and update the score
-        for question, correct_answer in selected_questions:
-            score = ask_question(question, correct_answer, score)
+playing = input("Do you want to play? ")
 
-        # Calculate the total number of questions
-        total_questions = len(selected_questions)
+if playing not in ["yes", "y"]:
+    quit()
 
-        # Calculate the percentage score as an integer
-        score_in_percentage = int((score / total_questions) * 100)
+print("Okay! Let's begin! :)")
 
-        # Print the final score and percentage
-        print(f"Your final score is: {score} out of {total_questions}. That's {score_in_percentage}%!")
+def ask_question(question, correct_answer, score):
+    answer = input(question).strip().lower()
+    if answer == correct_answer:
+        print('Correct!')
+        score += 1
+    else:
+        print(f"Incorrect! The correct answer is ({correct_answer}).")
+    return score
 
-        # Ask the user if they want to play again
-        print()
-        replay = input("Would you like to play again? (yes or no): ").strip().lower()
-        if replay not in ['yes', 'y']:
-            print("Thanks for playing! See you soon!")
-            break
+def ask_question(question, correct_answer, score):
+    print(question)
+    user_answer = input("Your answer: ").strip()
+    if user_answer.lower() == correct_answer.lower():
+        print("Correct!\n")
+        return score + 1
+    else:
+        print(f"Incorrect! The correct answer is: {correct_answer}\n")
+        return score
 
-# Start the quiz game
-play_quiz()
+def generate_quiz(topic):
+    if topic == "android":
+        return android_questions
+    elif topic == "python":
+        return python_questions
+    elif topic == "dsa":
+        return dsa_questions
+    else:
+        return []
+
+while True:
+    # Let the user choose a topic
+    topic_choice = input("Choose a topic (android, python, dsa): ").strip().lower()
+    questions_and_answers = generate_quiz(topic_choice)
+
+    if not questions_and_answers:
+        print("Invalid topic choice. Please choose 'android', 'python', or 'dsa'.")
+        continue
+
+    # Initialize the score
+    score = 0
+
+    # Randomize the order of questions and select the first 10
+    random.shuffle(questions_and_answers)
+    selected_questions = questions_and_answers[:10]
+
+    # Ask each question and update the score
+    for question, correct_answer in selected_questions:
+        score = ask_question(question, correct_answer, score)
+
+    # Calculate the total number of questions
+    total_questions = len(selected_questions)
+
+    # Calculate the percentage score as an integer
+    score_in_percentage = int((score / total_questions) * 100)
+
+    # Print the final score and percentage
+    print(f"Your final score is: {score} out of {total_questions}. That's {score_in_percentage}%!")
+
+    # Ask the user if they want to play again
+    print()
+    replay = input("Would you like to play again? (yes or no): ").strip().lower()
+    if replay not in ['yes', 'y']:
+        print("Thanks for playing! See you soon!")
+        break
