@@ -194,6 +194,111 @@ javascript_questions = [
     ("How can you detect the client's browser name?\n(a) navigator.appName\n(b) client.navName\n(c) browser.name\n(d) user.navName\n", "a"),
 ]
 
+css_questions = [
+    ("Which property is used to change the background color?\n(a) bgcolor\n(b) color\n(c) background-color\n(d) back-color\n", "c"),
+    ("Which property is used to change the text color of an element?\n(a) fgcolor\n(b) color\n(c) text-color\n(d) font-color\n", "b"),
+    ("Which property is used to change the font of an element?\n(a) font-family\n(b) font-style\n(c) font-weight\n(d) font-variant\n", "a"),
+    ("How do you add a background color for all <h1> elements?\n(a) all.h1 {background-color: #FFFFFF;}\n(b) h1.all {background-color: #FFFFFF;}\n(c) h1 {background-color: #FFFFFF;}\n(d) all-h1 {background-color: #FFFFFF;}\n", "c"),
+    ("Which CSS property is used to change the text alignment?\n(a) align\n(b) text-align\n(c) text-decoration\n(d) text-style\n", "b"),
+    ("Which property is used to change the left margin of an element?\n(a) padding-left\n(b) margin-left\n(c) indent\n(d) margin\n", "b"),
+    ("How do you make each word in a text start with a capital letter?\n(a) text-transform: capitalize\n(b) text-style: capitalize\n(c) text-decoration: capitalize\n(d) transform: capitalize\n", "a"),
+    ("Which property is used to change the space between lines of text?\n(a) line-height\n(b) spacing\n(c) text-spacing\n(d) line-spacing\n", "a"),
+    ("How do you select an element with id 'demo'?\n(a) .demo\n(b) #demo\n(c) *demo\n(d) demo\n", "b"),
+    ("How do you select elements with class name 'test'?\n(a) .test\n(b) #test\n(c) *test\n(d) test\n", "a"),
+    ("Which property is used to change the font size?\n(a) font-height\n(b) text-size\n(c) font-size\n(d) text-height\n", "c"),
+    ("How do you make the text bold?\n(a) style: bold\n(b) font: bold\n(c) font-weight: bold\n(d) text-weight: bold\n", "c"),
+    ("Which property is used to change the bottom margin of an element?\n(a) margin-bottom\n(b) margin\n(c) padding-bottom\n(d) padding\n", "a"),
+    ("How do you display a border like this: The top border = 10 pixels, bottom border = 5 pixels, left border = 20 pixels, right border = 1 pixel?\n(a) border-width: 10px 1px 5px 20px\n(b) border-width: 10px 20px 5px 1px\n(c) border-width: 10px 5px 20px 1px\n(d) border-width: 5px 20px 10px 1px\n", "a"),
+    ("Which property is used to change the left padding of an element?\n(a) padding-left\n(b) padding\n(c) margin-left\n(d) margin\n", "a"),
+    ("Which property is used to change the width of an element?\n(a) width\n(b) length\n(c) size\n(d) height\n", "a"),
+    ("How do you make a list that lists its items with squares?\n(a) list-type: square\n(b) list-style-type: square\n(c) list: square\n(d) list-style: square\n", "b"),
+    ("How do you select all p elements inside a div element?\n(a) div p\n(b) div + p\n(c) div.p\n(d) div ~ p\n", "a"),
+    ("Which property is used to change the height of an element?\n(a) height\n(b) width\n(c) length\n(d) size\n", "a"),
+    ("How do you make a list that lists its items with numbers?\n(a) list-style-type: number\n(b) list: number\n(c) list-style-type: decimal\n(d) list-type: decimal\n", "c"),
+    ("Which property is used to make the text italic?\n(a) font-weight: italic\n(b) font-style: italic\n(c) text-decoration: italic\n(d) text-style: italic\n", "b"),
+    ("Which property is used to change the right margin of an element?\n(a) padding-right\n(b) margin-right\n(c) indent\n(d) margin\n", "b"),
+    ("How do you display hyperlinks without an underline?\n(a) a {text-decoration: none;}\n(b) a {underline: none;}\n(c) a {decoration: no-underline;}\n(d) a {text-decoration: no-underline;}\n", "a"),
+    ("Which property is used to change the cursor to a hand?\n(a) cursor: hand\n(b) cursor: pointer\n(c) cursor: grab\n(d) cursor: move\n", "b"),
+    ("How do you make each letter in a text uppercase?\n(a) text-transform: uppercase\n(b) text-style: uppercase\n(c) text-decoration: uppercase\n(d) transform: uppercase\n", "a"),
+    ("Which property is used to change the background image of an element?\n(a) bg-image\n(b) background-image\n(c) bg-image-set\n(d) background-img\n", "b"),
+    ("Which property is used to change the text color of an element?\n(a) text-color\n(b) font-color\n(c) color\n(d) fgcolor\n", "c"),
+    ("How do you make the first letter of every word in a text capitalized?\n(a) text-transform: capitalize\n(b) text-style: capitalize\n(c) text-decoration: capitalize\n(d) transform: capitalize\n", "a"),
+    ("How do you make a text shadow?\n(a) text-shadow\n(b) text-shadowing\n(c) text-shadow-effect\n(d) shadow-text\n", "a"),
+    ("Which property is used to change the top margin of an element?\n(a) margin-top\n(b) padding-top\n(c) top-margin\n(d) top-padding\n", "a"),
+    ("Which property is used to set the background image of an element?\n(a) background-image\n(b) bg-image\n(c) background-url\n(d) image-background\n", "a"),
+    ("Which CSS property controls the text size?\n(a) font-size\n(b) text-style\n(c) text-size\n(d) font-style\n", "a"),
+    ("How do you make the text bold?\n(a) font-weight: bold\n(b) style: bold\n(c) font-style: bold\n(d) text-decoration: bold\n", "a"),
+    ("Which property is used to change the space between the content and the border?\n(a) margin\n(b) padding\n(c) spacing\n(d) border-spacing\n", "b"),
+    ("Which property is used to change the text color of an element?\n(a) fgcolor\n(b) text-color\n(c) font-color\n(d) color\n", "d"),
+    ("How do you select all elements of a given class?\n(a) .classname\n(b) #classname\n(c) classname\n(d) *classname\n", "a"),
+    ("Which CSS property controls the text alignment?\n(a) align\n(b) text-align\n(c) text-decoration\n(d) text-style\n", "b"),
+    ("Which CSS property is used to change the space between letters?\n(a) letter-spacing\n(b) spacing\n(c) text-spacing\n(d) font-spacing\n", "a"),
+    ("Which CSS property is used to change the space between words?\n(a) word-spacing\n(b) spacing\n(c) text-spacing\n(d) font-spacing\n", "a"),
+    ("Which CSS property is used to change the font of an element?\n(a) font-family\n(b) font-style\n(c) font-weight\n(d) font-variant\n", "a"),
+    ("Which CSS property is used to change the border color of an element?\n(a) border-color\n(b) border-style\n(c) border-background\n(d) border-fill\n", "a"),
+    ("How do you make the text underline?\n(a) text-decoration: underline\n(b) font-decoration: underline\n(c) text-style: underline\n(d) font-style: underline\n", "a"),
+    ("How do you make the text italic?\n(a) font-style: italic\n(b) text-style: italic\n(c) font-weight: italic\n(d) text-weight: italic\n", "a"),
+    ("Which property is used to set the background color of an element?\n(a) bgcolor\n(b) background-color\n(c) color\n(d) bg-color\n", "b"),
+    ("Which property is used to add or subtract space between the letters in a text?\n(a) letter-spacing\n(b) font-spacing\n(c) character-spacing\n(d) text-spacing\n", "a"),
+    ("Which property is used to control the order of flexible items in a container?\n(a) order\n(b) flex-order\n(c) item-order\n(d) order-flex\n", "a"),
+    ("Which CSS property is used to change the style of a list marker?\n(a) list-style\n(b) marker-style\n(c) list-type\n(d) list-marker\n", "a"),
+    ("How do you add shadow to text?\n(a) text-shadow\n(b) font-shadow\n(c) shadow-text\n(d) text-effect\n", "a"),
+    ("Which property is used to change the size of the background image?\n(a) background-size\n(b) background-stretch\n(c) background-fit\n(d) background-scale\n", "a"),
+    ("Which CSS property is used to change the style of the font?\n(a) font-style\n(b) font-weight\n(c) font-family\n(d) font-variant\n", "a"),
+    ("Which CSS property controls the alignment of text within an element?\n(a) text-align\n(b) align-text\n(c) align\n(d) text-position\n", "a"),
+    ("Which property is used to change the transparency of an element?\n(a) opacity\n(b) visibility\n(c) transparent\n(d) filter\n", "a"),
+    ("How do you make a rounded border?\n(a) border-radius\n(b) border-curve\n(c) border-round\n(d) border-corner\n", "a"),
+    ("Which property is used to control the position of an element?\n(a) position\n(b) location\n(c) placement\n(d) top\n", "a"),
+    ("Which property is used to set the width of an element?\n(a) width\n(b) height\n(c) size\n(d) dimension\n", "a"),
+    ("Which property is used to set the height of an element?\n(a) height\n(b) width\n(c) size\n(d) dimension\n", "a"),
+    ("Which property is used to add a border to an element?\n(a) border\n(b) outline\n(c) border-style\n(d) frame\n", "a"),
+    ("Which property is used to control the margin of an element?\n(a) margin\n(b) padding\n(c) spacing\n(d) border\n", "a"),
+    ("Which property is used to add padding inside an element?\n(a) padding\n(b) margin\n(c) spacing\n(d) border\n", "a"),
+    ("How do you display an element as a block-level element?\n(a) display: block\n(b) display: inline\n(c) display: inline-block\n(d) display: none\n", "a"),
+    ("How do you display an element as an inline element?\n(a) display: inline\n(b) display: block\n(c) display: inline-block\n(d) display: none\n", "a"),
+    ("Which property is used to control the visibility of an element?\n(a) visibility\n(b) display\n(c) opacity\n(d) transparent\n", "a"),
+    ("How do you hide an element?\n(a) display: none\n(b) visibility: hidden\n(c) opacity: 0\n(d) All of the above\n", "d"),
+    ("Which property is used to change the font weight of an element?\n(a) font-weight\n(b) font-style\n(c) font-family\n(d) font-variant\n", "a"),
+    ("Which property is used to control the z-index of an element?\n(a) z-index\n(b) layer\n(c) stack\n(d) depth\n", "a"),
+    ("How do you set a minimum width for an element?\n(a) min-width\n(b) width-min\n(c) minimum-width\n(d) width\n", "a"),
+    ("How do you set a maximum width for an element?\n(a) max-width\n(b) width-max\n(c) maximum-width\n(d) width\n", "a"),
+    ("Which property is used to set the line height?\n(a) line-height\n(b) height-line\n(c) text-height\n(d) height\n", "a"),
+    ("Which property is used to set the bottom margin of an element?\n(a) margin-bottom\n(b) padding-bottom\n(c) bottom-margin\n(d) bottom-padding\n", "a"),
+    ("Which property is used to set the top margin of an element?\n(a) margin-top\n(b) padding-top\n(c) top-margin\n(d) top-padding\n", "a"),
+    ("Which property is used to set the right margin of an element?\n(a) margin-right\n(b) padding-right\n(c) right-margin\n(d) right-padding\n", "a"),
+    ("Which property is used to set the left margin of an element?\n(a) margin-left\n(b) padding-left\n(c) left-margin\n(d) left-padding\n", "a"),
+    ("How do you set the background color of an element?\n(a) background-color\n(b) bgcolor\n(c) color\n(d) back-color\n", "a"),
+    ("How do you set the background image of an element?\n(a) background-image\n(b) bg-image\n(c) back-image\n(d) image-background\n", "a"),
+    ("How do you set the background position of an element?\n(a) background-position\n(b) bg-position\n(c) back-position\n(d) position-background\n", "a"),
+    ("How do you set the background repeat of an element?\n(a) background-repeat\n(b) bg-repeat\n(c) back-repeat\n(d) repeat-background\n", "a"),
+    ("How do you set the background size of an element?\n(a) background-size\n(b) bg-size\n(c) back-size\n(d) size-background\n", "a"),
+    ("How do you set the border of an element?\n(a) border\n(b) border-style\n(c) border-width\n(d) border-color\n", "a"),
+    ("How do you set the border color of an element?\n(a) border-color\n(b) border\n(c) border-style\n(d) border-width\n", "a"),
+    ("How do you set the border style of an element?\n(a) border-style\n(b) border\n(c) border-color\n(d) border-width\n", "a"),
+    ("How do you set the border width of an element?\n(a) border-width\n(b) border\n(c) border-color\n(d) border-style\n", "a"),
+    ("How do you set the width of an element?\n(a) width\n(b) height\n(c) size\n(d) dimension\n", "a"),
+    ("How do you set the height of an element?\n(a) height\n(b) width\n(c) size\n(d) dimension\n", "a"),
+    ("How do you add padding inside an element?\n(a) padding\n(b) margin\n(c) spacing\n(d) border\n", "a"),
+    ("How do you add margin outside an element?\n(a) margin\n(b) padding\n(c) spacing\n(d) border\n", "a"),
+    ("How do you set the font family of an element?\n(a) font-family\n(b) font-style\n(c) font-weight\n(d) font-variant\n", "a"),
+    ("How do you set the font size of an element?\n(a) font-size\n(b) text-size\n(c) size\n(d) font-style\n", "a"),
+    ("How do you set the font style of an element?\n(a) font-style\n(b) font-family\n(c) font-weight\n(d) font-variant\n", "a"),
+    ("How do you set the font weight of an element?\n(a) font-weight\n(b) font-style\n(c) font-family\n(d) font-variant\n", "a"),
+    ("How do you set the text color of an element?\n(a) color\n(b) text-color\n(c) font-color\n(d) fgcolor\n", "a"),
+    ("How do you set the text alignment of an element?\n(a) text-align\n(b) align\n(c) align-text\n(d) text-position\n", "a"),
+    ("How do you set the text decoration of an element?\n(a) text-decoration\n(b) decoration\n(c) decorate\n(d) text-style\n", "a"),
+    ("How do you set the text transform of an element?\n(a) text-transform\n(b) transform\n(c) text-change\n(d) text-style\n", "a"),
+    ("How do you set the letter spacing of an element?\n(a) letter-spacing\n(b) spacing\n(c) text-spacing\n(d) font-spacing\n", "a"),
+    ("How do you set the word spacing of an element?\n(a) word-spacing\n(b) spacing\n(c) text-spacing\n(d) font-spacing\n", "a"),
+    ("How do you set the line height of an element?\n(a) line-height\n(b) height\n(c) text-height\n(d) line\n", "a"),
+    ("How do you set the vertical alignment of an element?\n(a) vertical-align\n(b) align\n(c) align-vertical\n(d) valign\n", "a"),
+    ("How do you set the overflow of an element?\n(a) overflow\n(b) flow\n(c) scroll\n(d) hidden\n", "a"),
+    ("How do you set the position of an element?\n(a) position\n(b) location\n(c) placement\n(d) top\n", "a"),
+    ("How do you set the z-index of an element?\n(a) z-index\n(b) layer\n(c) stack\n(d) depth\n", "a"),
+    ("How do you set the display of an element?\n(a) display\n(b) show\n(c) visibility\n(d) block\n", "a"),
+    ("How do you set the visibility of an element?\n(a) visibility\n(b) display\n(c) hidden\n(d) show\n", "a"),
+]
+
 print("Welcome to my Programming Quiz!")
 
 playing = input("Do you want to play? ")
@@ -231,16 +336,18 @@ def generate_quiz(topic):
         return dsa_questions
     elif topic == "javascript":
         return javascript_questions
+    elif topic == "css":
+        return css_questions
     else:
         return []
 
 while True:
     # Let the user choose a topic
-    topic_choice = input("Choose a topic (android, python, dsa, javascript): ").strip().lower()
+    topic_choice = input("Choose a topic (android, python, dsa, javascript, css): ").strip().lower()
     questions_and_answers = generate_quiz(topic_choice)
 
     if not questions_and_answers:
-        print("Invalid topic choice. Please choose 'android', 'python','dsa' or 'javascript'.")
+        print("Invalid topic choice. Please choose 'android', 'python','dsa', 'javascript', 'css'.")
         continue
 
     # Initialize the score
