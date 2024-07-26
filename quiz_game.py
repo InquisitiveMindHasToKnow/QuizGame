@@ -151,6 +151,49 @@ dsa_questions = [
     ("What is the time complexity of searching for an element in a balanced AVL tree? \n(a) O(1)\n(b) O(log n)\n(c) O(n)\n(d) O(n log n)\n", "b")
 ]
 
+javascript_questions = [
+    ("Which of the following is a JavaScript framework?\n(a) Django\n(b) Flask\n(c) Angular\n(d) Laravel\n", "c"),
+    ("Which company developed JavaScript?\n(a) Microsoft\n(b) Netscape\n(c) Google\n(d) Apple\n", "b"),
+    ("Which symbol is used for comments in JavaScript?\n(a) //\n(b) <!-- -->\n(c) /* */\n(d) #\n", "a"),
+    ("What is the output of 'typeof null' in JavaScript?\n(a) 'null'\n(b) 'object'\n(c) 'undefined'\n(d) 'boolean'\n", "b"),
+    ("How do you declare a variable in JavaScript?\n(a) var\n(b) let\n(c) const\n(d) All of the above\n", "d"),
+    ("Which method converts a JSON string into a JavaScript object?\n(a) JSON.stringify()\n(b) JSON.parse()\n(c) JSON.toObject()\n(d) JSON.convert()\n", "b"),
+    ("Which of the following is a JavaScript package manager?\n(a) npm\n(b) pip\n(c) gem\n(d) composer\n", "a"),
+    ("Which of the following is not a reserved word in JavaScript?\n(a) interface\n(b) throws\n(c) program\n(d) short\n", "c"),
+    ("Which event occurs when the user clicks on an HTML element?\n(a) onmouseover\n(b) onchange\n(c) onclick\n(d) onmouseclick\n", "c"),
+    ("Which function is used to serialize an object into a JSON string in JavaScript?\n(a) JSON.stringify()\n(b) JSON.parse()\n(c) JSON.objectify()\n(d) JSON.encode()\n", "a"),
+    ("How do you create a function in JavaScript?\n(a) function = myFunction()\n(b) function myFunction()\n(c) function:myFunction()\n(d) create myFunction()\n", "b"),
+    ("Which built-in method combines the text of two strings and returns a new string?\n(a) append()\n(b) concat()\n(c) attach()\n(d) add()\n", "b"),
+    ("Which built-in method sorts the elements of an array?\n(a) changeOrder(order)\n(b) order()\n(c) sort()\n(d) arrange()\n", "c"),
+    ("Which of the following is not a valid JavaScript variable name?\n(a) 2names\n(b) _first_and_last_names\n(c) FirstAndLast\n(d) None of the above\n", "a"),
+    ("Which JavaScript method is used to access an HTML element by its id?\n(a) getElementById()\n(b) getElement(id)\n(c) getElementByIdentifier()\n(d) getElementByIdName()\n", "a"),
+    ("Which operator is used to assign a value to a variable in JavaScript?\n(a) =\n(b) ==\n(c) ===\n(d) <-\n", "a"),
+    ("Which method removes the last element from an array and returns that element?\n(a) pop()\n(b) last()\n(c) remove()\n(d) None of the above\n", "a"),
+    ("What is the correct JavaScript syntax to change the content of the HTML element below?\n<p id='demo'>This is a demonstration.</p>\n(a) document.getElementByName('p').innerHTML = 'Hello World!';\n(b) document.getElement('p').innerHTML = 'Hello World!';\n(c) document.getElementById('demo').innerHTML = 'Hello World!';\n(d) demo.innerHTML = 'Hello World!';\n", "c"),
+    ("What will the following code return: Boolean(10 > 9)?\n(a) true\n(b) false\n(c) NaN\n(d) undefined\n", "a"),
+    ("Which JavaScript method is used to write on a browser's console?\n(a) console.write()\n(b) console.output()\n(c) console.log()\n(d) console.print()\n", "c"),
+    ("How can you add a comment in JavaScript?\n(a) 'This is a comment\n(b) <!--This is a comment-->\n(c) //This is a comment\n(d) *This is a comment*\n", "c"),
+    ("Which JavaScript method is used to call a function after a specified time interval?\n(a) setTimeout()\n(b) setTime()\n(c) setInterval()\n(d) setTimer()\n", "a"),
+    ("Which of the following is a string method in JavaScript?\n(a) get()\n(b) element()\n(c) indexOf()\n(d) querySelector()\n", "c"),
+    ("How do you create an array in JavaScript?\n(a) var arr = '1, 2, 3'\n(b) var arr = (1, 2, 3)\n(c) var arr = [1, 2, 3]\n(d) var arr = {1, 2, 3}\n", "c"),
+    ("Which of the following methods is used to access HTML elements using JavaScript?\n(a) getElementById()\n(b) getElementsByClassName()\n(c) getElementsByTagName()\n(d) All of the above\n", "d"),
+    ("Which of the following is correct about features of JavaScript?\n(a) JavaScript is a lightweight, interpreted programming language.\n(b) JavaScript is designed for creating network-centric applications.\n(c) JavaScript is complementary to and integrated with Java.\n(d) All of the above\n", "d"),
+    ("Which built-in method reverses the order of the elements of an array?\n(a) changeOrder(order)\n(b) reverse()\n(c) sort(order)\n(d) None of the above\n", "b"),
+    ("Which of the following function of String object returns the characters in a string between two indexes into the string?\n(a) slice()\n(b) split()\n(c) substr()\n(d) substring()\n", "d"),
+    ("Which of the following function of Array object adds and/or removes elements from an array?\n(a) toSource()\n(b) sort()\n(c) splice()\n(d) unshift()\n", "c"),
+    ("Which of the following function of Array object extracts a section of an array and returns a new array?\n(a) reverse()\n(b) shift()\n(c) slice()\n(d) some()\n", "c"),
+    ("Which of the following function of String object creates an HTML anchor that is used as a hypertext target?\n(a) anchor()\n(b) link()\n(c) blink()\n(d) big()\n", "a"),
+    ("Which of the following function of String object returns the calling string value converted to upper case?\n(a) toLocaleUpperCase()\n(b) toUpperCase()\n(c) toString()\n(d) substring()\n", "b"),
+    ("Which of the following function of Array object represents the source code of an object?\n(a) splice()\n(b) toSource()\n(c) toString()\n(d) unshift()\n", "b"),
+    ("Inside which HTML element do we put the JavaScript?\n(a) <javascript>\n(b) <script>\n(c) <js>\n(d) <scripting>\n", "b"),
+    ("What is the correct JavaScript syntax to write 'Hello World'?\n(a) response.write('Hello World')\n(b) 'Hello World'\n(c) document.write('Hello World')\n(d) ('Hello World')\n", "c"),
+    ("What is the correct place to insert a JavaScript?\n(a) Both the <head> section and the <body> section are correct\n(b) The <head> section\n(c) The <body> section\n(d) The <footer> section\n", "a"),
+    ("How do you call a function named 'myFunction'?\n(a) call function myFunction()\n(b) call myFunction()\n(c) myFunction()\n(d) Call.myFunction()\n", "c"),
+    ("How to write an IF statement in JavaScript?\n(a) if i = 5 then\n(b) if i == 5 then\n(c) if (i == 5)\n(d) if i = 5\n", "c"),
+    ("How does a WHILE loop start?\n(a) while (i <= 10; i++)\n(b) while (i <= 10)\n(c) while i = 1 to 10\n(d) while (i <= 10; i+)\n", "b"),
+    ("How can you detect the client's browser name?\n(a) navigator.appName\n(b) client.navName\n(c) browser.name\n(d) user.navName\n", "a"),
+]
+
 print("Welcome to my Programming Quiz!")
 
 playing = input("Do you want to play? ")
@@ -186,16 +229,18 @@ def generate_quiz(topic):
         return python_questions
     elif topic == "dsa":
         return dsa_questions
+    elif topic == "javascript":
+        return javascript_questions
     else:
         return []
 
 while True:
     # Let the user choose a topic
-    topic_choice = input("Choose a topic (android, python, dsa): ").strip().lower()
+    topic_choice = input("Choose a topic (android, python, dsa, javascript): ").strip().lower()
     questions_and_answers = generate_quiz(topic_choice)
 
     if not questions_and_answers:
-        print("Invalid topic choice. Please choose 'android', 'python', or 'dsa'.")
+        print("Invalid topic choice. Please choose 'android', 'python','dsa' or 'javascript'.")
         continue
 
     # Initialize the score
