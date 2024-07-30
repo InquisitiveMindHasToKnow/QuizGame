@@ -299,6 +299,69 @@ css_questions = [
     ("How do you set the visibility of an element?\n(a) visibility\n(b) display\n(c) hidden\n(d) show\n", "a"),
 ]
 
+html_questions = [
+    ("What does HTML stand for?\n(a) Hyper Text Markup Language\n(b) Hyperlinks and Text Markup Language\n(c) Home Tool Markup Language\n(d) Hyper Tool Markup Language\n", "a"),
+    ("Who is making the Web standards?\n(a) Microsoft\n(b) Google\n(c) The World Wide Web Consortium\n(d) Mozilla\n", "c"),
+    ("Choose the correct HTML element for the largest heading:\n(a) <heading>\n(b) <h6>\n(c) <h1>\n(d) <h4>\n", "c"),
+    ("What is the correct HTML element for inserting a line break?\n(a) <br>\n(b) <lb>\n(c) <break>\n(d) <linebreak>\n", "a"),
+    ("What is the correct HTML element for inserting a background image?\n(a) <background>\n(b) <background-img>\n(c) <bgimage>\n(d) <body background>\n", "d"),
+    ("How can you make a numbered list?\n(a) <list>\n(b) <ul>\n(c) <ol>\n(d) <dl>\n", "c"),
+    ("How can you make a bulleted list?\n(a) <list>\n(b) <ul>\n(c) <ol>\n(d) <dl>\n", "b"),
+    ("What is the correct HTML for creating a hyperlink?\n(a) <a>http://example.com</a>\n(b) <a href=\"http://example.com\">Example</a>\n(c) <link>http://example.com</link>\n(d) <a name=\"http://example.com\">Example</a>\n", "b"),
+    ("Which character is used to indicate an end tag?\n(a) /\n(b) <\n(c) *\n(d) ^\n", "a"),
+    ("How can you open a link in a new tab/browser window?\n(a) <a href=\"url\" target=\"_blank\">\n(b) <a href=\"url\" new>\n(c) <a href=\"url\" target=\"new\">\n(d) <a href=\"url\" target=\"_new\">\n", "a"),
+    ("Which of these elements are all <table> elements?\n(a) <table><tr><td>\n(b) <table><head><tfoot>\n(c) <thead><body><tr>\n(d) <table><tr><tt>\n", "a"),
+    ("How can you make a comment in HTML?\n(a) <!-- This is a comment -->\n(b) // This is a comment\n(c) /* This is a comment */\n(d) <comment> This is a comment </comment>\n", "a"),
+    ("What does the <a> tag define?\n(a) An anchor\n(b) An attribute\n(c) A link\n(d) A paragraph\n", "c"),
+    ("How do you create an unordered list?\n(a) <ul>\n(b) <ol>\n(c) <list>\n(d) <ulist>\n", "a"),
+    ("What is the purpose of the <head> tag?\n(a) To define the document's header\n(b) To contain metadata and links to scripts and stylesheets\n(c) To display the main content\n(d) To create a navigation bar\n", "b"),
+    ("Which HTML element defines the title of a document?\n(a) <head>\n(b) <meta>\n(c) <title>\n(d) <body>\n", "c"),
+    ("What is the correct way to write a Doctype declaration in HTML5?\n(a) <!DOCTYPE html>\n(b) <DOCTYPE html>\n(c) <doctype html>\n(d) <!DOCTYPE HTML5>\n", "a"),
+    ("Which HTML element is used to specify a footer for a document or section?\n(a) <footer>\n(b) <foot>\n(c) <section>\n(d) <bottom>\n", "a"),
+    ("What is the correct HTML element for playing video files?\n(a) <video>\n(b) <media>\n(c) <movie>\n(d) <file>\n", "a"),
+    ("What is the correct HTML element for playing audio files?\n(a) <audio>\n(b) <sound>\n(c) <mp3>\n(d) <media>\n", "a"),
+    ("Which of the following is correct about HTML attributes?\n(a) HTML elements can have multiple attributes\n(b) HTML attributes cannot be added to the <img> tag\n(c) HTML attributes are case-sensitive\n(d) HTML attributes are only used in the <body> tag\n", "a"),
+    ("How do you define a table cell?\n(a) <td>\n(b) <tr>\n(c) <table>\n(d) <tc>\n", "a"),
+    ("Which tag is used to create a drop-down list?\n(a) <dropdown>\n(b) <list>\n(c) <select>\n(d) <datalist>\n", "c"),
+    ("Which tag is used to define an image map?\n(a) <map>\n(b) <imagemap>\n(c) <mapimage>\n(d) <imgmap>\n", "a"),
+    ("What is the correct HTML tag for inserting a line break?\n(a) <br>\n(b) <break>\n(c) <lb>\n(d) <linebreak>\n", "a"),
+    ("How can you make a checkbox in HTML?\n(a) <input type=\"checkbox\">\n(b) <check>\n(c) <input type=\"check\">\n(d) <checkbox>\n", "a"),
+    ("Which attribute specifies a unique identifier for an HTML element?\n(a) class\n(b) id\n(c) key\n(d) name\n", "b"),
+    ("Which attribute is used to define inline styles?\n(a) class\n(b) style\n(c) styles\n(d) inline\n", "b"),
+    ("How do you specify a form input should be of type password?\n(a) <input type=\"password\">\n(b) <input type=\"pass\">\n(c) <input type=\"pwd\">\n(d) <input type=\"secret\">\n", "a"),
+    ("What does the <caption> tag define in an HTML table?\n(a) A caption for the table\n(b) The header of the table\n(c) The body of the table\n(d) The footer of the table\n", "a"),
+    ("How do you create a radio button in HTML?\n(a) <input type=\"radio\">\n(b) <radio>\n(c) <input type=\"button\">\n(d) <input type=\"radiobutton\">\n", "a"),
+    ("What is the purpose of the <label> tag in a form?\n(a) To display a label for an input element\n(b) To create a text field\n(c) To define a form\n(d) To create a submit button\n", "a"),
+    ("What is the correct HTML tag for the smallest heading?\n(a) <h6>\n(b) <h1>\n(c) <heading6>\n(d) <header6>\n", "a"),
+    ("What does the <iframe> tag do?\n(a) Embeds another HTML page within the current page\n(b) Defines an inline frame\n(c) Creates a new window\n(d) Links to an external script\n", "a"),
+    ("Which tag is used to define a description list?\n(a) <dl>\n(b) <dd>\n(c) <dt>\n(d) <list>\n", "a"),
+    ("Which HTML attribute is used to define inline styles?\n(a) class\n(b) style\n(c) styles\n(d) css\n", "b"),
+    ("Which tag is used to define a form?\n(a) <form>\n(b) <input>\n(c) <submit>\n(d) <button>\n", "a"),
+    ("How do you create an HTML comment?\n(a) <!-- Comment -->\n(b) // Comment\n(c) /* Comment */\n(d) # Comment\n", "a"),
+    ("What is the purpose of the <meta> tag?\n(a) To define metadata about an HTML document\n(b) To link to external resources\n(c) To create a hyperlink\n(d) To define a table\n", "a"),
+    ("Which HTML element is used to specify a header for a document or section?\n(a) <header>\n(b) <head>\n(c) <top>\n(d) <section>\n", "a"),
+    ("What does the <nav> element define?\n(a) A navigation menu\n(b) A link to an external script\n(c) A list of definitions\n(d) A footer\n", "a"),
+    ("What is the purpose of the <aside> element?\n(a) To define content aside from the main content\n(b) To define the sidebar of a document\n(c) To define the footer of a document\n(d) To define the navigation links\n", "a"),
+    ("How do you make a hyperlink in HTML?\n(a) <a href=\"url\">link text</a>\n(b) <a name=\"url\">link text</a>\n(c) <a link=\"url\">link text</a>\n(d) <a url=\"url\">link text</a>\n", "a"),
+    ("Which attribute is used to specify the URL of the page the link goes to?\n(a) href\n(b) url\n(c) link\n(d) src\n", "a"),
+    ("What is the correct syntax for referring to an external CSS file?\n(a) <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n(b) <style src=\"style.css\">\n(c) <stylesheet>style.css</stylesheet>\n(d) <css src=\"style.css\">\n", "a"),
+    ("Which attribute is used to specify the location of an external script?\n(a) src\n(b) link\n(c) href\n(d) url\n", "a"),
+    ("What does the <img> tag do?\n(a) Embeds an image in the HTML page\n(b) Creates an image placeholder\n(c) Defines a link to an image\n(d) Adds an image background\n", "a"),
+    ("Which attribute is used to specify the source of an image in the <img> tag?\n(a) src\n(b) href\n(c) link\n(d) url\n", "a"),
+    ("How do you add a title to an HTML document?\n(a) <title>\n(b) <meta>\n(c) <head>\n(d) <header>\n", "a"),
+    ("Which tag is used to define a table row?\n(a) <tr>\n(b) <td>\n(c) <th>\n(d) <row>\n", "a"),
+    ("How do you make text bold in HTML?\n(a) <b>\n(b) <strong>\n(c) <em>\n(d) <bold>\n", "a"),
+    ("How do you make text italic in HTML?\n(a) <i>\n(b) <italic>\n(c) <em>\n(d) <it>\n", "a"),
+    ("Which tag is used to define a table header?\n(a) <th>\n(b) <thead>\n(c) <header>\n(d) <head>\n", "a"),
+    ("What is the correct HTML tag for the main content of a document?\n(a) <main>\n(b) <content>\n(c) <body>\n(d) <maincontent>\n", "a"),
+    ("Which HTML attribute is used to specify the character encoding for a document?\n(a) charset\n(b) encoding\n(c) char\n(d) encode\n", "a"),
+    ("What is the correct HTML for creating a hyperlink to an email address?\n(a) <a href=\"mailto:example@example.com\">Email</a>\n(b) <a href=\"email@example.com\">Email</a>\n(c) <a mail=\"example@example.com\">Email</a>\n(d) <a href=\"emailto:example@example.com\">Email</a>\n", "a"),
+    ("Which element is used to define navigation links?\n(a) <nav>\n(b) <navigation>\n(c) <link>\n(d) <menu>\n", "a"),
+    ("Which tag is used to define an unordered list?\n(a) <ul>\n(b) <ol>\n(c) <li>\n(d) <list>\n", "a"),
+    ("What is the correct HTML for creating a form?\n(a) <form>\n(b) <input>\n(c) <submit>\n(d) <button>\n", "a"),
+]
+
+
 print("Welcome to my Programming Quiz!")
 
 playing = input("Do you want to play? ")
@@ -338,16 +401,18 @@ def generate_quiz(topic):
         return javascript_questions
     elif topic == "css":
         return css_questions
+    elif topic == "html":
+        return html_questions
     else:
         return []
 
 while True:
     # Let the user choose a topic
-    topic_choice = input("Choose a topic (android, python, dsa, javascript, css): ").strip().lower()
+    topic_choice = input("Choose a topic (android, python, dsa, javascript, css, html): ").strip().lower()
     questions_and_answers = generate_quiz(topic_choice)
 
     if not questions_and_answers:
-        print("Invalid topic choice. Please choose 'android', 'python','dsa', 'javascript', 'css'.")
+        print("Invalid topic choice. Please choose 'android', 'python','dsa', 'javascript', 'css', 'html'.")
         continue
 
     # Initialize the score
